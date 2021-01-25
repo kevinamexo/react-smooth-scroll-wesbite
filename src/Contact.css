@@ -1,0 +1,83 @@
+.contact-page{
+   padding:50px 80px;
+    background: rgb(165, 165, 165);
+}
+
+.contact-section{
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px
+}
+
+form{
+    margin-left:50px;
+    width: 100%;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+    margin-top:20px;
+    display: flex;
+    align-items:center;
+}
+
+
+.sp{
+    display: inline-block;
+    width: 20%;
+}
+input{
+    width: 65%;
+    /* margin-left: 5px; */
+}
+/* 
+.msg-box{
+    width: 65%;
+    height:100px;
+   
+    margin-left: 32px;
+    word-wrap: break-word;
+    padding:10px;
+
+
+} */
+
+.contact-title{
+    text-align: center;
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.message-label{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.submit-form{
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    background:rgb(95, 117, 196);
+    border:none;
+    border-radius: 10px;
+
+}
+.msg-label{
+    /* display: flex; */
+    align-self: start;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
